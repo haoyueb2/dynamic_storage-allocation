@@ -1,7 +1,5 @@
 # 动态分区分配设计方案报告
 
-**1652613 白皓月**
-
 开发语言为java，界面基于javafx构建
 
 ## 项目背景
@@ -14,7 +12,7 @@
 
 初始状态如图，表示有640K的空闲内存块。
 
-![1559828566361](C:\Users\74293\AppData\Roaming\Typora\typora-user-images\1559828566361.png)
+![1559828566361](./image/1559828566361.png)
 
 该组件绑定了javafx的ObservableList：
 
@@ -149,13 +147,13 @@ Deque<Task> taskSequence = new LinkedList<>();
 
 首次适应算法按前述的任务序列执行到最后的结果：
 
-![1559830487055](C:\Users\74293\AppData\Roaming\Typora\typora-user-images\1559830487055.png)
+![1559830487055](./image/1559830487055.png)
 
 最佳适应算法按前述的任务序列执行到最后的结果：
 
-![1559830560414](C:\Users\74293\AppData\Roaming\Typora\typora-user-images\1559830560414.png)
+![1559830560414](./image/1559830560414.png)
 
 点击重置：memory会回到初始状态，并且按钮状态也都恢复成可按下。任务序列也会被重置。
 
-![1559830624044](C:\Users\74293\AppData\Roaming\Typora\typora-user-images\1559830624044.png)
+![1559830624044](./image/1559830624044.png)
 

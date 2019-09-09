@@ -15,6 +15,9 @@
     <root id="root">
       <element id="archive" name="memory_manage2.jar">
         <element id="module-output" name="memory_manage2" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
       </element>
     </root>
   </artifact>
